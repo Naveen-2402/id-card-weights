@@ -1,0 +1,35 @@
+{
+  "dataset_info": {
+    "source": "MIDV-500",
+    "task": "ID Card Detection",
+    "classes": [
+      "id_card"
+    ],
+    "format": "YOLO",
+    "description": "Converted MIDV-500 dataset for YOLO object detection"
+  },
+  "statistics": {
+    "train": {
+      "total_images": 1050,
+      "total_annotations": 1050,
+      "failed_samples": 0
+    },
+    "val": {
+      "total_images": 299,
+      "total_annotations": 299,
+      "failed_samples": 0
+    },
+    "test": {
+      "total_images": 151,
+      "total_annotations": 151,
+      "failed_samples": 0
+    }
+  },
+  "file_structure": {
+    "images/": "Contains train/val/test image folders",
+    "labels/": "Contains train/val/test label folders",
+    "dataset.yaml": "YOLO configuration file",
+    "classes.txt": "List of class names",
+    "class_mapping.json": "Class name to ID mapping"
+  }
+}

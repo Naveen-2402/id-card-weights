@@ -1,0 +1,7 @@
+names:
+- id_card
+nc: 1
+path: C:\Users\Naveen\Desktop\Mobile OCR\sandbox\data\midv500_yolo
+test: images/test
+train: images/train
+val: images/val
