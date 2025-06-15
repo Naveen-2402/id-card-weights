@@ -1,7 +1,8 @@
-names:
-- id_card
-nc: 1
-path: C:\Users\Naveen\Desktop\Mobile OCR\sandbox\data\midv500_yolo
-test: images/test
+# dataset.yaml (updated)
+path: /home/ddp/ocr/id-card-weights/midv500_yolo
 train: images/train
 val: images/val
+test: images/test
+nc: 1
+names: ["id_card"]
+
